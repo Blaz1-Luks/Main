@@ -2,6 +2,6 @@
 
 int main(void)
 {
-    printf("Altenok\t{8}\nGG-NNN\tCSC00\t{14}\n");
+    printf("Nikita\t{8}\nIV-621\tdekstop-jftkncu\t{23}\n");
     return 0;
 }
