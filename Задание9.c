@@ -1,13 +1,8 @@
 #include <stdio.h>
 
-int main(void){
-    printf("START");
+int main(){
 
-    printf("\b\b\b\b\b");
-
-    printf("STOP");
-
-    printf("\n\a");
+    printf("START\b\b\bOP \b\a\n");
 
     return 0;
 }

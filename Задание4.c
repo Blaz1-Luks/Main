@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <limits.h>g
+#include <limits.h>
 
 int main(){
     printf("INT_MIN %d\n", INT_MIN);
