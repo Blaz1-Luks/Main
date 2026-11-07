@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main(void) 
-{   int n, i, cube;
+{   
+    int n, i, cube;
     scanf("%d", &n);
     i=1;
 
