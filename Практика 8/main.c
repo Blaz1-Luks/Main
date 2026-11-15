@@ -7,8 +7,8 @@
 int main(void)
 {
     int arr[RAZMER_MAX];
-    int n = 0;
-    int konets = 0;
+    int n=0;
+    int konets=0;
     int punkt;
     int ch;
 
@@ -32,7 +32,7 @@ int main(void)
         punkt=ch;
 
         while ((ch=getchar())!='\n'){
-            if (ch == EOF) {
+            if (ch==EOF){
                 konets=1;
                 break;
             }
@@ -69,7 +69,7 @@ int main(void)
             if (n==0){
                 printf("Сначала задайте размер (пункт a)\n");
             } else {
-                dialog_indeksy_diapazona(arr, n);
+                dialog_indeksy_diapazone(arr, n);
             }
             break;
         case 'f':
